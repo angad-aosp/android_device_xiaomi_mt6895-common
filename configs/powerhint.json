@@ -436,6 +436,12 @@
     },
     {
       "PowerHint": "EXPENSIVE_RENDERING",
+      "Node": "MemFreq",
+      "Duration": 0,
+      "Value": "6400000000"
+    },
+    {
+      "PowerHint": "EXPENSIVE_RENDERING",
       "Node": "UclampFGMin",
       "Duration": 0,
       "Value": "30"
@@ -444,7 +450,13 @@
       "PowerHint": "EXPENSIVE_RENDERING",
       "Node": "UclampTAMin",
       "Duration": 0,
-      "Value": "30"
+      "Value": "100"
+    },
+    {
+      "PowerHint": "EXPENSIVE_RENDERING",
+      "Node": "PMQoSCpuDmaLatency",
+      "Duration": 0,
+      "Value": "0"
     },
     {
       "PowerHint": "EXPENSIVE_RENDERING",
